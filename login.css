@@ -1,0 +1,147 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0; /* Altera a cor de fundo */
+  font-family: Arial, sans-serif; /* Define a fonte do corpo do documento */
+  color: #333; /* Define a cor do texto */
+  margin: 0; /* Remove a margem padrão */
+  padding: 0; /* Remove o preenchimento padrão */
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Alinha o conteúdo horizontalmente no centro */
+  align-items: center; /* Alinha o conteúdo verticalmente no centro */
+  height: 100vh; /* Define a altura da tela para garantir o alinhamento vertical */
+  margin: 10px; /* Remove qualquer margem padrão */
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 10px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  width: 450px;
+  text-align: center;
+  height: 700px;
+  overflow-y: auto; /* Ativa a barra de rolagem quando necessário*/
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #4caf50;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.input-group input:focus {
+  border-color: #4caf50;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.links {
+  margin-top: 10px;
+}
+
+.links a {
+  display: block;
+  font-size: 14px;
+  color: #4caf50;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.ilustration-container {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: -10px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  width: 450px;
+  text-align: center;
+  height: 700px;
+}
+.input-group.genero-group {
+  display: flex;
+  flex-direction: column; /* Organiza os itens verticalmente */
+  gap: 10px; /* Espaçamento entre as linhas */
+}
+
+.input-group.genero-group label {
+  display: flex;
+  align-items: center; /* Alinha o texto e o botão no centro */
+  gap: 8px; /* Espaçamento entre o ponto de seleção e o texto */
+}
+
+.input-group.genero-group input[type="radio"] {
+  margin-left: 275px; /* Remove margens padrão do input */
+}
+
+.input-grou.genero-group {
+  margin-bottom: 0px !important;
+}
+
+.input-group input[type="radio"] {
+  margin-right: 5px;
+  margin-bottom: unset !important;
+}
+
+.success-message {
+  color: green;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #e0ffe0;
+  border: 1px solid #b2f2b2;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #ffe0e0;
+  border: 1px solid #f2b2b2;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}

@@ -1,0 +1,29 @@
+body {
+  background-color: #f8f9fa;
+}
+
+header {
+  font-size: 18px;
+}
+
+.list-group-item.active {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.card.p-3 {
+  max-height: 500px !important; /* Defina a altura máxima de acordo com a necessidade */
+  overflow-y: auto !important; /* Permite a rolagem vertical quando o conteúdo excede a altura */
+  padding-right: 20px !important; /* Espaço extra à direita para a barra de rolagem */
+}
+
+.detalhes-link {
+  flex: 0 0 auto;
+  width: 75%;
+}
